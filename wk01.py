@@ -3,11 +3,6 @@
 cron: 1 0 4,5,11,12,13,17,18,19,23 * * *
 new Env('悟空A本1');
 """
-"""
-# -*- coding:utf-8 -*-
-cron: 1 20 4,5,11,12,13,17,18,19,23 * * *
-new Env('悟空A本1');
-"""
 import requests,secrets,time,hashlib,string,random,json,os,sys
 import datetime
 from lib2to3.pygram import python_grammar_no_print_and_exec_statement
