@@ -2,7 +2,7 @@
 cookies格式 url#cookie#argus#ladon
 wkllq_ck = "url#cookie#argus#ladon"
 """
-# -*- coding:utf-8 -*_
+# -*- coding:utf-8 -*-
 cron: 2 30 0,7,14,20 * * * *
 new Env('悟空B本2');
 import os
