@@ -15,6 +15,8 @@ import hashlib
 import uuid
 import json
 
+proxies = { "http": "http://192.168.1.100:6601", "https": "https://192.168.1.100:6601", }  
+
 now = str(round(time.time()*1000))
 kami=""
 cookies=os.getenv("wk01")
