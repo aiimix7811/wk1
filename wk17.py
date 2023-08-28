@@ -1,7 +1,7 @@
 """
 # -*- coding:utf-8 -*- 
   cron: 10 12-23 * * *
-  new Env('Îò¿ÕA±¾17'); 
+  new Env('æ‚Ÿç©ºAæœ¬17'); 
 """
 import requests,secrets,time,hashlib,string,random,json,os,sys
 import datetime
@@ -34,72 +34,72 @@ class DY:
             
                  jbsl = self.user()
                  jb1 = jbsl
-                 print(f"========¿ªÊ¼½øĞĞ½ñÈÕÇ©µ½========")
+                 print(f"========å¼€å§‹è¿›è¡Œä»Šæ—¥ç­¾åˆ°========")
                  point_ss , point_s = self.sign()
-                 print(f"Ç©µ½½±Àø½ğ±Ò--{point_s}")
-                 print(f"Ç©µ½½±Àø½ğ±Ò--{point_ss}")
+                 print(f"ç­¾åˆ°å¥–åŠ±é‡‘å¸--{point_s}")
+                 print(f"ç­¾åˆ°å¥–åŠ±é‡‘å¸--{point_ss}")
                  ttt = random.randint(25,35)
-                 print(f"Ç©µ½¹ã¸æ½±Àø½ğ±Ò--ĞİÏ¢{ttt}Ãë")
+                 print(f"ç­¾åˆ°å¹¿å‘Šå¥–åŠ±é‡‘å¸--ä¼‘æ¯{ttt}ç§’")
                  time.sleep(ttt)    
                  pointgg , pointggg = self.task_box(4019)
-                 print(f"Ç©µ½¹ã¸æ½±Àø½ğ±Ò--{pointgg}")
-                 print(f"Ç©µ½¹ã¸æ½±Àø½ğ±Ò--{pointggg}")
+                 print(f"ç­¾åˆ°å¹¿å‘Šå¥–åŠ±é‡‘å¸--{pointgg}")
+                 print(f"ç­¾åˆ°å¹¿å‘Šå¥–åŠ±é‡‘å¸--{pointggg}")
                  time.sleep(20) 
                  ttt = random.randint(25,35)
-                 print(f"Ç©µ½¹ã¸æ½±Àø2½ğ±Ò--ĞİÏ¢{ttt}Ãë")
+                 print(f"ç­¾åˆ°å¹¿å‘Šå¥–åŠ±2é‡‘å¸--ä¼‘æ¯{ttt}ç§’")
                  time.sleep(ttt)    
                  pointgg , pointggg = self.task_box(4107)
-                 print(f"Ç©µ½¹ã¸æ½±Àø2½ğ±Ò--{pointgg}")
-                 print(f"Ç©µ½¹ã¸æ½±Àø2½ğ±Ò--{pointggg}")
+                 print(f"ç­¾åˆ°å¹¿å‘Šå¥–åŠ±2é‡‘å¸--{pointgg}")
+                 print(f"ç­¾åˆ°å¹¿å‘Šå¥–åŠ±2é‡‘å¸--{pointggg}")
                  time.sleep(20) 
-                 print(f"========¿ªÊ¼½øĞĞ³Ô·¹²¹Ìù========")
+                 print(f"========å¼€å§‹è¿›è¡Œåƒé¥­è¡¥è´´========")
                  self.eat_coin()
-                 print(f"========¿ªÊ¼½øĞĞ×ßÂ·×¬Ç®========")
+                 print(f"========å¼€å§‹è¿›è¡Œèµ°è·¯èµšé’±========")
                  pointgg , pointggg = self.task_box(4014)
-                 print(f"×ßÂ·×¬½ğ±Ò--{pointgg}")
-                 print(f"×ßÂ·×¬½ğ±Ò--{pointggg}")
-                 print(f"========¿ªÊ¼¿´¹ã¸æ×¬½ğ±Ò========")
+                 print(f"èµ°è·¯èµšé‡‘å¸--{pointgg}")
+                 print(f"èµ°è·¯èµšé‡‘å¸--{pointggg}")
+                 print(f"========å¼€å§‹çœ‹å¹¿å‘Šèµšé‡‘å¸========")
                  pointgg , pointggg = self.task_box(4006)
-                 print(f"¿´¹ã¸æ×¬½ğ±Ò--{pointgg}")
-                 print(f"¿´¹ã¸æ×¬½ğ±Ò--{pointggg}")
+                 print(f"çœ‹å¹¿å‘Šèµšé‡‘å¸--{pointgg}")
+                 print(f"çœ‹å¹¿å‘Šèµšé‡‘å¸--{pointggg}")
                  ttt = random.randint(25,35)
-                 print(f"¿´¹ã¸æ2×¬½ğ±Ò--ĞİÏ¢{ttt}Ãë")
+                 print(f"çœ‹å¹¿å‘Š2èµšé‡‘å¸--ä¼‘æ¯{ttt}ç§’")
                  time.sleep(ttt) 
                  pointgg , pointggg = self.task_box(4018)
-                 print(f"¿´¹ã¸æ2×¬½ğ±Ò--{pointgg}")
-                 print(f"¿´¹ã¸æ2×¬½ğ±Ò--{pointggg}")
+                 print(f"çœ‹å¹¿å‘Š2èµšé‡‘å¸--{pointgg}")
+                 print(f"çœ‹å¹¿å‘Š2èµšé‡‘å¸--{pointggg}")
                  ttt = random.randint(25,35)
-                 print(f"¿´¹ã¸æ3×¬½ğ±Ò--ĞİÏ¢{ttt}Ãë")
+                 print(f"çœ‹å¹¿å‘Š3èµšé‡‘å¸--ä¼‘æ¯{ttt}ç§’")
                  time.sleep(ttt) 
                  pointgg , pointggg = self.task_box(3012)
-                 print(f"¿´¹ã¸æ3×¬½ğ±Ò--{pointgg}")
-                 print(f"¿´¹ã¸æ3×¬½ğ±Ò--{pointggg}")
-                 print(f"========¿ªÊ¼¿ª±¦Ïä×¬½ğ±Ò========")
+                 print(f"çœ‹å¹¿å‘Š3èµšé‡‘å¸--{pointgg}")
+                 print(f"çœ‹å¹¿å‘Š3èµšé‡‘å¸--{pointggg}")
+                 print(f"========å¼€å§‹å¼€å®ç®±èµšé‡‘å¸========")
                  self.treasure_box()
                  pointgg , pointggg = self.task_box(4108)
-                 print(f"¿ª±¦Ïä¹ã¸æ½ğ±Ò--{pointgg}")
-                 print(f"¿ª±¦Ïä¹ã¸æ½ğ±Ò--{pointggg}")
+                 print(f"å¼€å®ç®±å¹¿å‘Šé‡‘å¸--{pointgg}")
+                 print(f"å¼€å®ç®±å¹¿å‘Šé‡‘å¸--{pointggg}")
                  ttt = random.randint(25,35)
-                 print(f"¿ª±¦ÏäÁ¬Ğø¹ã¸æ½ğ±Ò--ĞİÏ¢{ttt}Ãë")
+                 print(f"å¼€å®ç®±è¿ç»­å¹¿å‘Šé‡‘å¸--ä¼‘æ¯{ttt}ç§’")
                  time.sleep(ttt) 
                  pointgg , pointggg = self.task_box(4010)
-                 print(f"¿ª±¦ÏäÁ¬Ğø¹ã¸æ½ğ±Ò--{pointgg}")
-                 print(f"¿ª±¦ÏäÁ¬Ğø¹ã¸æ½ğ±Ò--{pointggg}")
+                 print(f"å¼€å®ç®±è¿ç»­å¹¿å‘Šé‡‘å¸--{pointgg}")
+                 print(f"å¼€å®ç®±è¿ç»­å¹¿å‘Šé‡‘å¸--{pointggg}")
                  ttt = random.randint(25,35)
-                 print(f"¿ª±¦ÏäÁ¬Ğø¹ã¸æ2½ğ±Ò--ĞİÏ¢{ttt}Ãë")
+                 print(f"å¼€å®ç®±è¿ç»­å¹¿å‘Š2é‡‘å¸--ä¼‘æ¯{ttt}ç§’")
                  time.sleep(ttt) 
                  pointgg , pointggg = self.task_box(4010)
-                 print(f"¿ª±¦ÏäÁ¬Ğø¹ã¸æ2½ğ±Ò--{pointgg}")
-                 print(f"¿ª±¦ÏäÁ¬Ğø¹ã¸æ2½ğ±Ò--{pointggg}")
+                 print(f"å¼€å®ç®±è¿ç»­å¹¿å‘Š2é‡‘å¸--{pointgg}")
+                 print(f"å¼€å®ç®±è¿ç»­å¹¿å‘Š2é‡‘å¸--{pointggg}")
                  time.sleep(20)
 
-                 print(f"========¿ªÊ¼ÕËºÅ²é×Ê²ú========")
+                 print(f"========å¼€å§‹è´¦å·æŸ¥èµ„äº§========")
             
                  jbsl = self.user()
                  jb2 = jbsl
                  jbzg = jb2 - jb1
-                 print(f"========¿ªÊ¼¼ÆËã×ÜÊÕÒæ========")
-                 print(f"±¾´ÎÔËĞĞ½Å±¾¹²»ñµÃ½ğ±Ò--{jbzg}")
+                 print(f"========å¼€å§‹è®¡ç®—æ€»æ”¶ç›Š========")
+                 print(f"æœ¬æ¬¡è¿è¡Œè„šæœ¬å…±è·å¾—é‡‘å¸--{jbzg}")
                  
             
    
@@ -121,30 +121,30 @@ class DY:
         response = requests.request("GET", url=url)
         if response.json().get('code') == "1":
                if response.json().get('data').get('config')  == "":
-                   kamijqm = "¼ì²âµ½ÄãÊÇÍ·´ÎÊ¹ÓÃ±¾½Å±¾£¬¼´½«»ñÈ¡»úÆ÷ÂëÉÏ´«µÇ¼Ç"
-                   kamijqmyz = "¼ì²âµ½ÄãÊÇÍ·´ÎÊ¹ÓÃ±¾½Å±¾£¬¼´½«»ñÈ¡»úÆ÷ÂëÉÏ´«µÇ¼Ç"
+                   kamijqm = "æ£€æµ‹åˆ°ä½ æ˜¯å¤´æ¬¡ä½¿ç”¨æœ¬è„šæœ¬ï¼Œå³å°†è·å–æœºå™¨ç ä¸Šä¼ ç™»è®°"
+                   kamijqmyz = "æ£€æµ‹åˆ°ä½ æ˜¯å¤´æ¬¡ä½¿ç”¨æœ¬è„šæœ¬ï¼Œå³å°†è·å–æœºå™¨ç ä¸Šä¼ ç™»è®°"
                else:
-                   kamijqm = "»úÆ÷Âë»ñÈ¡³É¹¦£¡"
+                   kamijqm = "æœºå™¨ç è·å–æˆåŠŸï¼"
                    kamijqmyz = response.json().get('data').get('config')
                return kamijqm , kamijqmyz
         else:
-            kamijqm = "»ñÈ¡Ê§°Ü£¡"
-            kamijqmyz = "»ñÈ¡Ê§°Ü£¡"
+            kamijqm = "è·å–å¤±è´¥ï¼"
+            kamijqmyz = "è·å–å¤±è´¥ï¼"
         return kamijqm , kamijqmyz
     
     def kamiwrite(self,md55):
         url = f"https://api2.2cccc.cc/apiv3/config&client_type=card&client_content={kami}&type=write&value={md55}&center_id=17898" 
         response = requests.request("GET", url=url)
         if response.json().get('code') == "1":
-            kamijqmm = "µÇ¼Ç³É¹¦£¡"
+            kamijqmm = "ç™»è®°æˆåŠŸï¼"
             return kamijqmm
         else:
-            kamijqmm = "Î´Öª´íÎó£¡"
+            kamijqmm = "æœªçŸ¥é”™è¯¯ï¼"
             return kamijqmm
 
     def get_mac_address(self):
       mac=uuid.UUID(int = uuid.getnode()).hex[-12:]
-      print("»ñÈ¡»úÆ÷Âë³É¹¦£¡")
+      print("è·å–æœºå™¨ç æˆåŠŸï¼")
       return ":".join([mac[e:e+2] for e in range(0,11,2)])
 
 
@@ -165,13 +165,13 @@ class DY:
             if response_json.get("err_no") == 0:
                 jbjj = response_json.get('data').get('score_balance') / 33000
                 jbj = round(jbjj, 2)
-                print(f"½ñÈÕ½ğ±Ò£º{response_json.get('data').get('today_score_amount')}½ğ±Ò ÏÖ½ğ£º{jbj} Ôª")
+                print(f"ä»Šæ—¥é‡‘å¸ï¼š{response_json.get('data').get('today_score_amount')}é‡‘å¸ ç°é‡‘ï¼š{jbj} å…ƒ")
                 jbsl = response_json.get('data').get('score_balance')
             else:
-                print(f"»ñÈ¡ÓÃ»§ĞÅÏ¢³ö´í{response_json}")
+                print(f"è·å–ç”¨æˆ·ä¿¡æ¯å‡ºé”™{response_json}")
                 jbsl = 0
         else:
-            print("ÓÃ»§Êı¾İ¹ıÆÚ»òÕß´íÎó")
+            print("ç”¨æˆ·æ•°æ®è¿‡æœŸæˆ–è€…é”™è¯¯")
             jbsl = 0
         return jbsl
     
@@ -199,11 +199,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         point_s = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 point_ss = response.json().get('data').get('reward_amount')
                 return point_s , point_ss
             else:
-                point_ss = "ÒÑ¾­ÉÏÏŞÁË"
+                point_ss = "å·²ç»ä¸Šé™äº†"
                 return point_s  , point_ss
             
     def eat_coin(self):
@@ -226,17 +226,17 @@ class DY:
                 if response_json.get("err_no") == 0:
                     score_amount = response_json.get('data').get('score_amount')
                     pointgg , pointggg = self.task_box(4011)
-                    print(f"³Ô·¹×¬Ç®¹ã¸æ½ğ±Ò--{pointgg}")
-                    print(f"³Ô·¹×¬Ç®¹ã¸æ½ğ±Ò--{pointggg}")
+                    print(f"åƒé¥­èµšé’±å¹¿å‘Šé‡‘å¸--{pointgg}")
+                    print(f"åƒé¥­èµšé’±å¹¿å‘Šé‡‘å¸--{pointggg}")
                     return True
                 else:
-                    print(f"[³Ô·¹×¬Ç®]Ê§°Ü£º¸ÃÊ±¼ä¶ÎÒÑÁìÈ¡")
+                    print(f"[åƒé¥­èµšé’±]å¤±è´¥ï¼šè¯¥æ—¶é—´æ®µå·²é¢†å–")
                     return True
             else:
-                print(f"ÇëÇóÊ§°Ü")
+                print(f"è¯·æ±‚å¤±è´¥")
             return False
         else:
-            print(f"[³Ô·¹×¬Ç®]Ê§°Ü£º²»ÔÚÊ±¼ä¶ÎÄÚ")
+            print(f"[åƒé¥­èµšé’±]å¤±è´¥ï¼šä¸åœ¨æ—¶é—´æ®µå†…")
         return False            
 
             
@@ -268,11 +268,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         point_ssp = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 point_sp = response.json().get('data').get('reward_amount')
                 return point_ssp , point_sp
             else:
-                point_sp = "ÒÑ¾­ÉÏÏŞÁË"
+                point_sp = "å·²ç»ä¸Šé™äº†"
                 return point_ssp  , point_sp   
 
     def treasure_box(self):
@@ -290,7 +290,7 @@ class DY:
         if response.status_code == 200:
             response_json = response.json()
             if response_json.get("err_no") == 0 and response_json.get('data').get('left_seconds') != 0:
-                print(f"[¿ªÆô±¦Ïä]Ê§°Ü£º»¹²î{response_json.get('data').get('left_seconds')}Ãë")
+                print(f"[å¼€å¯å®ç®±]å¤±è´¥ï¼šè¿˜å·®{response_json.get('data').get('left_seconds')}ç§’")
                 return True
             else:
                 url = f"https://api5-normal-lf.toutiaoapi.com/luckycat/gip/v1/daily/treasure_box/done?{self.url}"
@@ -307,13 +307,13 @@ class DY:
                 response = requests.post(url, headers=headers, data=body)
                 if response.status_code == 200:
                     response_json = response.json()
-                    print(f"[¿ªÆô±¦Ïä]»ñµÃ½ğ±Ò: {response_json.get('data').get('reward_amount')}")
+                    print(f"[å¼€å¯å®ç®±]è·å¾—é‡‘å¸: {response_json.get('data').get('reward_amount')}")
                     return True
                 else:
-                    print(f"ÇëÇóÊ§°Ü")
+                    print(f"è¯·æ±‚å¤±è´¥")
                     return False
         else:
-            print(f"ÇëÇóÊ§°Ü")
+            print(f"è¯·æ±‚å¤±è´¥")
         return False
 
 
@@ -341,11 +341,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         pointxss = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 pointxxss = response.json().get('data').get('amount')
                 return pointxss , pointxxss
             else:
-                pointxxss = "ÒÑ¾­ÉÏÏŞÁË"
+                pointxxss = "å·²ç»ä¸Šé™äº†"
                 return pointxss , pointxxss  
 
     def eat(self):
@@ -372,11 +372,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         point_cf = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 point_cff = response.json().get('data').get('score_amount')
                 return point_cf , point_cff
             else:
-                point_cff = "ÒÑ¾­ÉÏÏŞÁË"
+                point_cff = "å·²ç»ä¸Šé™äº†"
                 return point_cf  , point_cff  
             
 
@@ -405,11 +405,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         pointstep = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 pointstepp = response.json().get('data').get('reward_amount')
                 return pointstep , pointstepp
             else:
-                pointstepp = "ÒÑ¾­ÉÏÏŞÁË"
+                pointstepp = "å·²ç»ä¸Šé™äº†"
                 return pointstep , pointstepp
 
 
@@ -439,11 +439,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         point_cfs = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 point_cffs = response.json().get('data').get('reward_amount')
                 return point_cfs , point_cffs
             else:
-                point_cffs = "ÒÑ¾­ÉÏÏŞÁË"
+                point_cffs = "å·²ç»ä¸Šé™äº†"
                 return point_cfs  , point_cffs  
             
     def read(self):
@@ -470,11 +470,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         point_read = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 point_readd = response.json().get('data').get('score_amount')
                 return point_readd , point_read
             else:
-                point_readd = "ÒÑ¾­ÉÏÏŞÁË"
+                point_readd = "å·²ç»ä¸Šé™äº†"
                 return point_readd , point_read
             
     def kgg(self):
@@ -501,11 +501,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         pointgg = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 pointggg = response.json().get('data').get('reward_amount')
                 return pointgg , pointggg
             else:
-                pointggg = "ÒÑ¾­ÉÏÏŞÁË"
+                pointggg = "å·²ç»ä¸Šé™äº†"
                 return pointgg , pointggg 
              
     def open_box(self):
@@ -532,11 +532,11 @@ class DY:
         response = requests.request("POST", url=url, headers=headers, data=payload)
         point2 = response.json().get('err_tips')
         if response.status_code == 200:
-            if response.json().get("err_tips") == "³É¹¦":
+            if response.json().get("err_tips") == "æˆåŠŸ":
                 point = response.json().get('data').get('reward_amount')
                 return point2 , point
             else:
-                point = "ÒÑ¾­ÉÏÏŞÁË"
+                point = "å·²ç»ä¸Šé™äº†"
                 return point2 , point
         
     def open_boxlx(self):
@@ -567,19 +567,19 @@ class DY:
                 point3 = response.json().get('data').get('reward_amount')
                 return point4,point3
             else:
-                point3 = "ÒÑ¾­ÉÏÏŞÁË"
+                point3 = "å·²ç»ä¸Šé™äº†"
                 return point4,point3
 
     
 
 if __name__ == "__main__":
     cookies = cookies.split("@")
-    print(f"¡¾Îò¿Õä¯ÀÀÆ÷¡¿¹²¼ì²âµ½{len(cookies)}¸öÕËºÅ")
+    print(f"ã€æ‚Ÿç©ºæµè§ˆå™¨ã€‘å…±æ£€æµ‹åˆ°{len(cookies)}ä¸ªè´¦å·")
     print(f"==========================================")
-    print(f"Îò¿Õä¯ÀÀÆ÷")
+    print(f"æ‚Ÿç©ºæµè§ˆå™¨")
     i = 1
     for cookie in cookies:
-        print(f"========¡¾ÕËºÅ{i}¡¿¿ªÊ¼ÔËĞĞ½Å±¾========")
+        print(f"========ã€è´¦å·{i}ã€‘å¼€å§‹è¿è¡Œè„šæœ¬========")
         i += 1
         DY(cookie).run()
         
@@ -587,4 +587,4 @@ if __name__ == "__main__":
         if i > len(cookies):
             break
         else:
-            print("ÑÓ³ÙÒ»Ğ¡»á,×¼±¸ÅÜÏÂÒ»¸öÕËºÅ")
+            print("å»¶è¿Ÿä¸€å°ä¼š,å‡†å¤‡è·‘ä¸‹ä¸€ä¸ªè´¦å·")
