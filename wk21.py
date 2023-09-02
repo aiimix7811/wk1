@@ -18,7 +18,6 @@ import json
 now = str(round(time.time()*1000))
 kami=""
 cookies=os.getenv("wk21")
-ua = ""
 
 
 
@@ -28,6 +27,7 @@ class DY:
         self.cookie = cookie.split("#")[1]
         self.argus = cookie.split("#")[2]
         self.ladon = cookie.split("#")[3]
+        self.ua = cookie.split("#")[4]
         
 
     def run(self):
@@ -151,7 +151,7 @@ class DY:
     def user(self):
         url = f"https://api5-normal-hl.toutiaoapi.com/luckycat/sj/v1/income/page_data?_request_from=web&{self.url}"
         headers = {
-            'User-Agent': ua,
+            'User-Agent': self.ua,
             'x-argus': self.argus,
             'x-ladon': self.ladon,
             'Cookie': self.cookie,
@@ -188,7 +188,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent': 'com.ss.android.article.news/9360 (Linux; U; Android 13; zh_CN; V2055A; Build/TP1A.220624.014; Cronet/TTNetVersion:85102f3e 2023-06-05 QuicVersion:4ad3af5d 2023-05-09)',
+        'user-agent': self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -212,7 +212,7 @@ class DY:
             url = f"https://api5-normal-lf.toutiaoapi.com/luckycat/gip/v1/daily/eat/done?{self.url}"
             body = "{}"
             headers = {
-                'User-Agent': ua,
+                'User-Agent': self.ua,
                 'x-argus': self.argus,
                 'x-ladon': self.ladon,
                 'Cookie': self.cookie,
@@ -256,7 +256,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent': ua,
+        'user-agent': self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -278,7 +278,7 @@ class DY:
     def treasure_box(self):
         url = f"https://api5-normal-lf.toutiaoapi.com/luckycat/gip/v1/daily/treasure_box/detail?{self.url}"
         headers = {
-            'User-Agent': ua,
+            'User-Agent': self.ua,
             'x-argus': self.argus,
             'x-ladon': self.ladon,
             'Cookie': self.cookie,
@@ -296,7 +296,7 @@ class DY:
                 url = f"https://api5-normal-lf.toutiaoapi.com/luckycat/gip/v1/daily/treasure_box/done?{self.url}"
                 body = "{\"auto_open\":false}"
                 headers = {
-                    'User-Agent': ua,
+                    'User-Agent': self.ua,
                     'x-argus': self.argus,
                     'x-ladon': self.ladon,
                     'Cookie': self.cookie,
@@ -330,7 +330,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent': ua,
+        'user-agent': self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -361,7 +361,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent': ua,
+        'user-agent': self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -394,7 +394,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent':ua,
+        'user-agent':self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -428,7 +428,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent': ua,
+        'user-agent': self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -459,7 +459,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent': ua,
+        'user-agent': self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -490,7 +490,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent':ua,
+        'user-agent':self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -521,7 +521,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent': ua,
+        'user-agent': self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
@@ -552,7 +552,7 @@ class DY:
         'x-tt-store-region': 'cn-hn',
         'x-tt-store-region-src': 'uid',
         'x-ss-dp': '13',
-        'user-agent': ua,
+        'user-agent': self.ua,
         'x-argus': self.argus,
         'x-ladon': self.ladon,
         'Cookie': self.cookie,
