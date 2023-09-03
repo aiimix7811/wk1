@@ -1,6 +1,6 @@
 """
 # -*- coding:utf-8 -*- 
-  cron: 25 12-23 * * *
+  cron: 15 12-23 * * *
   new Env('悟空A本06'); 
 """
 import requests,secrets,time,hashlib,string,random,json,os,sys
