@@ -1,7 +1,7 @@
 """
 # -*- coding:utf-8 -*- 
   cron: */516 * * *
-  new Env('悟空3小时测试'); 
+  new Env('悟空3小时测试A本'); 
 """
 import requests,secrets,time,hashlib,string,random,json,os,sys
 import datetime
