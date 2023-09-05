@@ -2,7 +2,7 @@
 """
 # -*- coding:utf-8 -*- 
   cron: */30 17,18 * * *
-  new Env('WKB01'); 
+  new Env('悟空3小时测试B本'); 
 """
 import os
 import requests
