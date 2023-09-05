@@ -1,6 +1,6 @@
 """
 # -*- coding:utf-8 -*- 
-  cron: */516 * * *
+  cron: */5 16 * * *
   new Env('悟空3小时测试A本'); 
 """
 import requests,secrets,time,hashlib,string,random,json,os,sys
